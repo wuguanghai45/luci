@@ -16,13 +16,13 @@ Permissions to make these calls must be granted in /usr/share/rpcd/acl.d
 via a file named the same as the application package name (luci-app-example)
 */
 const load_sample1 = rpc.declare({
-	object: 'luci.example',
+	object: 'luci.hc-service',
 	method: 'get_sample1'
 });
 // Out of the box, this one will be blocked by the framework because there is
 // no ACL granting permission.
 const load_sample3 = rpc.declare({
-	object: 'luci.example',
+	object: 'luci.hc-service',
 	method: 'get_sample3'
 });
 

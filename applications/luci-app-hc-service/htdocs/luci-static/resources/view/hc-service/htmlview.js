@@ -10,7 +10,7 @@ return view.extend({
 		return Promise.all([
 			// The relevant ACL path for reading a configuration with UCI this way is
 			// read > uci > ["example"]
-			uci.load('example')
+			uci.load('hc-service')
 		]);
 	},
 	render: function (data) {

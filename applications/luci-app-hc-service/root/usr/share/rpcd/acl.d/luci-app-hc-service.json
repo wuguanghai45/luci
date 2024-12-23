@@ -1,20 +1,20 @@
 {
-  "luci-app-example": {
-    "description": "Grant UCI and RPC access to LuCI app example",
+  "luci-app-hc-service": {
+    "description": "Grant UCI and RPC access to LuCI app hc-service",
     "read": {
       "ubus": {
-        "luci.example": [
+        "luci.hc-service": [
           "get_sample1",
           "get_sample2"
         ]
       },
       "uci": [
-        "example"
+        "hc-service"
       ]
     },
     "write": {
       "uci": [
-        "example"
+        "hc-service"
       ]
     }
   }

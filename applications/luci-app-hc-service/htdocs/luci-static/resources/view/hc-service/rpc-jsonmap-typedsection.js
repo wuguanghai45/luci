@@ -16,7 +16,7 @@ Permissions to make these calls must be granted in /usr/share/rpcd/acl.d
 via a file named the same as the application package name (luci-app-example)
 */
 const load_sample2 = rpc.declare({
-	object: 'luci.example',
+	object: 'luci.hc-service',
 	method: 'get_sample2'
 });
 
@@ -57,20 +57,20 @@ return view.extend({
         
 		Execute   ubus call luci.example get_sample2   to see the JSON being used.
 		*/
-		m = new form.JSONMap(sample, _('JSONMap TableSection Sample'), _(
+		m = new form.JSONMap(sample, _('JSONMap TypedSection Sample'), _(
 			'See browser console for raw data'));
 		// Make the form read-only; this only matters if the apply/save/reset handlers
 		// are not replaced with null to disable them.
 		m.readonly = true;
 		// Set up for a tabbed display
-		m.tabbed = false;
+		m.tabbed = true;
 
 		const option_names = Object.keys(sample);
 		for (var i = option_names.length - 1; i >= 0; i--) {
 			var option_name = option_names[i];
 			var display_name = option_name.replace("_", " ");
-			s = m.section(form.TableSection, option_name, capitalize(display_name), _(
-				'Description for this table section'))
+			s = m.section(form.TypedSection, option_name, capitalize(display_name), _(
+				'Description for this typed section'))
 			o = s.option(form.Value, 'name', _('Option name'));
 			o = s.option(form.Value, 'value', _('Option value'));
 			o = s.option(form.DynamicList, 'parakeets', 'Parakeets');

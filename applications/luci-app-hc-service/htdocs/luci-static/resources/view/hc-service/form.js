@@ -22,7 +22,7 @@ return view.extend({
 		The relevant ACL path for writing back the configuration is
 		write > uci > ["example"]
 		*/
-		m = new form.Map('example', _('Example Form'),
+		m = new form.Map('hc-service', _('Example Form'),
 			_('Example Form Configuration.'));
 
 		s = m.section(form.TypedSection, 'first', _('first section'));
