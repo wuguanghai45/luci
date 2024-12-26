@@ -10,48 +10,12 @@
     }
   },
 
-  "admin/hc-service/form": {
-    "title": "Form View",
+  "admin/hc-service/flash": {
+    "title": "Flash RT1061",
     "order": 1,
     "action": {
       "type": "view",
-      "path": "hc-service/form"
-    }
-  },
-
-  "admin/hc-service/html": {
-    "title": "HTML Page",
-    "order": 2,
-    "action": {
-      "type": "view",
-      "path": "hc-service/htmlview"
-    }
-  },
-  
-  "admin/hc-service/rpc-array": {
-    "title": "RPC Array hc-service",
-    "order": 3,
-    "action": {
-      "type": "view",
-      "path": "hc-service/rpc"
-    }
-  },
-
-  "admin/hc-service/rpc-jsonmap-table": {
-    "title": "RPC JSONMap Table Example",
-    "order": 4,
-    "action": {
-      "type": "view",
-      "path": "hc-service/rpc-jsonmap-tablesection"
-    }
-  },
-
-  "admin/hc-service/rpc-jsonmap-typed": {
-    "title": "RPC JSONMap Typed hc-service",
-    "order": 5,
-    "action": {
-      "type": "view",
-      "path": "hc-service/rpc-jsonmap-typedsection"
+      "path": "hc-service/flash"
     }
   }
 }

@@ -1,21 +1,16 @@
 {
   "luci-app-hc-service": {
-    "description": "Grant UCI and RPC access to LuCI app hc-service",
+    "description": "Grant access to flash operations hc-service",
     "read": {
-      "ubus": {
-        "luci.hc-service": [
-          "get_sample1",
-          "get_sample2"
-        ]
-      },
-      "uci": [
-        "hc-service"
-      ]
+
     },
     "write": {
-      "uci": [
-        "hc-service"
-      ]
+      "cgi-io": [ "upload" ],
+			"file": {
+        "/tmp/nxp_flash.bin": [ "write" ],
+        "/tmp/stm_flash.bin": [ "write" ],
+        "/usr/bin/hc_flash": [ "exec" ]
+      }
     }
   }
 }

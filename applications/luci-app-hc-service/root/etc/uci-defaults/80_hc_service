@@ -1,9 +1,0 @@
-#!/bin/sh
-
-touch /etc/config/hc_service
-uci set hc_service.first=first
-uci set hc_service.second=second
-uci set hc_service.third=third
-uci commit
-
-return 0
