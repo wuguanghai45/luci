@@ -11,11 +11,19 @@
   },
 
   "admin/hc-service/flash": {
-    "title": "Flash RT1061",
+    "title": "Flash Device",
     "order": 1,
     "action": {
       "type": "view",
       "path": "hc-service/flash"
+    }
+  },
+  "admin/hc-service/term": {
+    "title": "Nxp Terminal",
+    "order": 2,
+    "action": {
+      "type": "view",
+      "path": "hc-service/term"
     }
   }
 }
