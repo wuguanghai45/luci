@@ -234,47 +234,47 @@ msgstr "文件名称"
 
 #: applications/luci-app-hc-service/root/usr/share/luci/menu.d/luci-app-hc-service.json:14
 msgid "Flash Device"
-msgstr "flash 设备"
+msgstr "烧录 设备"
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:26
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:51
 #, fuzzy
 msgid "Flash completed:"
-msgstr "flash 完成: "
+msgstr "烧录完成: "
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:83
 msgid "Flash new firmware for RT1061"
-msgstr "flash 新的 RT1061 固件"
+msgstr "烧录新的RT1061固件"
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:74
 msgid "Flash new firmware for STM32"
-msgstr "flash 新的 STM32 固件"
+msgstr "烧录新的STM32固件"
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:88
 msgid "Flash nxp"
-msgstr "flash nxp"
+msgstr "烧录 nxp"
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:61
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:90
 msgid "Flash nxp..."
-msgstr "flash nxp..."
+msgstr "烧录 nxp..."
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:67
 #, fuzzy
 msgid "Flash operations"
-msgstr "flash 操作"
+msgstr "烧录 操作"
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:77
 msgid "Flash stm"
-msgstr "flash stm"
+msgstr "烧录 stm"
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:79
 msgid "Flash stm..."
-msgstr "flash stm..."
+msgstr "烧录 stm..."
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:36
 msgid "Flash stm32..."
-msgstr "flash stm32..."
+msgstr "烧录 stm32..."
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:713
 msgid "Go"
@@ -329,7 +329,7 @@ msgstr "未选择项目"
 
 #: applications/luci-app-hc-service/root/usr/share/luci/menu.d/luci-app-hc-service.json:30
 msgid "Nxp Terminal"
-msgstr "Nxp Terminal"
+msgstr "Nxp 终端"
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager/HexEditor.js:1226
 msgid "Offset (h)"
@@ -466,11 +466,11 @@ msgstr "上传文件"
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:84
 msgid "Upload a nxp-flash.bin image here to flash RT1061 firmware."
-msgstr "上传一个 nxp-flash.bin 镜像，以 flash RT1061 固件"
+msgstr "上传一个 nxp-flash.bin 镜像，用来烧录 RT1061 固件"
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:74
 msgid "Upload a stm32-flash.bin image here to flash STM32 firmware."
-msgstr "上传一个 stm32-flash.bin 镜像，以 flash STM32 固件"
+msgstr "上传一个 stm32-flash.bin 镜像，用来烧录 STM32 固件"
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1408
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1410
@@ -499,11 +499,11 @@ msgstr "文件"
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:42
 msgid "flash nxp..."
-msgstr "flash nxp..."
+msgstr "烧录 nxp..."
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:17
 msgid "flash stm..."
-msgstr "flash stm..."
+msgstr "烧录 stm..."
 
 #: applications/luci-app-hc-service/root/usr/share/luci/menu.d/luci-app-hc-service.json:3
 msgid "hc-service"
@@ -525,4 +525,4 @@ msgstr "符号链接"
 
 #: applications/luci-app-hc-service/root/usr/share/luci/menu.d/luci-app-hc-service.json:22
 msgid "wormhole Terminal"
-msgstr "虫洞Terminal"
+msgstr "虫洞终端"
