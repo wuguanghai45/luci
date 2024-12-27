@@ -1,5 +1,7 @@
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-27 16:26+0800\n"
 "PO-Revision-Date: 2023-12-08 01:52+0000\n"
 "Last-Translator: Eric <zxmegaxqug@hldrive.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -10,174 +12,517 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.3-dev\n"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/form.js:38
-msgid "A boolean option"
-msgstr "布尔选项"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:848
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:71
+msgid "Actions"
+msgstr "操作"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/form.js:43
-msgid "A select option"
-msgstr "选择选项"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1607
+msgid "Are you sure you want to delete the selected files and directories?"
+msgstr "确定要删除选中的文件和目录吗?"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc.js:56
-msgid "Cats"
-msgstr "Cats"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2043
+msgid "Are you sure you want to delete this %s: \"%s\"?"
+msgstr "确定要删除这个 %s: \"%s\"?"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc-jsonmap-tablesection.js:73
-msgid "Description for this table section"
-msgstr "此表格部分的描述"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2458
+msgid "Changes to %s \"%s\" uploaded successfully."
+msgstr "更改 %s \"%s\" 上传成功"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc-jsonmap-typedsection.js:73
-msgid "Description for this typed section"
-msgstr "此输入部分的描述"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1023
+msgid "Column Max Widths (format: name:maxWidth,type:maxWidth,...):"
+msgstr "列最大宽度(格式: name:maxWidth,type:maxWidth,...):"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc.js:57
-msgid "Dogs"
-msgstr "Dogs"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1012
+msgid "Column Min Widths (format: name:minWidth,type:minWidth,...):"
+msgstr "列最小宽度(格式: name:minWidth,type:minWidth,...):"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/form.js:55
-msgid "Dynamic list option"
-msgstr "动态列表选项"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1001
+msgid "Column Widths (format: name:width,type:width,...):"
+msgstr "列宽度(格式: name:width,type:width,...):"
 
-#: applications/luci-app-example/root/usr/share/luci/menu.d/luci-app-example.json:3
-msgid "Example"
-msgstr "示例"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1494
+msgid "Create"
+msgstr "创建"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/form.js:25
-msgid "Example Form"
-msgstr "示例表单"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1445
+#, fuzzy
+msgid "Create Directory:"
+msgstr "创建文件夹: "
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/form.js:26
-msgid "Example Form Configuration."
-msgstr "示例表单配置。"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:898
+msgid "Create File"
+msgstr "创建文件"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/htmlview.js:18
-msgid "Example HTML Page"
-msgstr "示例 HTML 页面"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1502
+#, fuzzy
+msgid "Create File:"
+msgstr "创建文件: "
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/form.js:31
-msgid "First Option"
-msgstr "第一个选项"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:894
+msgid "Create Folder"
+msgstr "创建文件夹"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/form.js:37
-msgid "Flag Option"
-msgstr "标记选项"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1061
+msgid "Current Directory:"
+msgstr "当前目录:"
 
-#: applications/luci-app-example/root/usr/share/luci/menu.d/luci-app-example.json:14
-msgid "Form View"
-msgstr "表单视图"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager/HexEditor.js:1238
+msgid "Decoded Text"
+msgstr "解码文本"
 
-#: applications/luci-app-example/root/usr/share/rpcd/acl.d/luci-app-example.json:3
-msgid "Grant UCI and RPC access to LuCI app example"
-msgstr "授予 UCI 和 RPC 访问 LuCI 应用示例的权限"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:904
+msgid "Delete Selected"
+msgstr "删除选中"
 
-#: applications/luci-app-example/root/usr/share/luci/menu.d/luci-app-example.json:23
-msgid "HTML Page"
-msgstr "HTML 页面"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2051
+msgid "Deleted %s: \"%s\"."
+msgstr "删除 %s: \"%s\"."
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/form.js:53
-msgid "Input for a password (storage on disk is not encrypted)"
-msgstr "输入密码（存储在磁盘上，未加密）"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1707
+msgid "Directory"
+msgstr "目录"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/form.js:32
-msgid "Input for the first option"
-msgstr "第一个选项的输入"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1461
+msgid "Directory \"%s\" created successfully."
+msgstr "文件夹 \"%s\" 创建成功"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc.js:60
-msgid "Is this real?"
-msgstr "这是真的吗？"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1428
+msgid "Directory Name"
+msgstr "文件夹名称"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc.js:130
-msgid "JSON converted to table via array building and loop"
-msgstr "通过数组构建和循环将 JSON 转换到了表格"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2015
+msgid "Downloaded file: \"%s\"."
+msgstr "下载文件: \"%s\"."
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc-jsonmap-tablesection.js:60
-msgid "JSONMap TableSection Sample"
-msgstr "JSONMap TableSection 样本"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:859
+msgid "Drop files here to upload"
+msgstr "拖动文件到这里上传"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc-jsonmap-typedsection.js:60
-msgid "JSONMap TypedSection Sample"
-msgstr "JSONMap TypedSection 样本"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2406
+msgid "Editing %s: \"%s\""
+msgstr "编辑 %s: \"%s\""
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc.js:60
-msgid "No"
-msgstr "否"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2784
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2788
+#, fuzzy
+msgid "Editing:"
+msgstr "编辑: "
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc.js:87
-msgid "Not found"
-msgstr "未找到"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:740
+msgid "Editor"
+msgstr "编辑器"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc-jsonmap-tablesection.js:74
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc-jsonmap-typedsection.js:74
-msgid "Option name"
-msgstr "选项名"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2182
+msgid "Editor textarea not found."
+msgstr "编辑器 textarea 未找到"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc-jsonmap-tablesection.js:75
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc-jsonmap-typedsection.js:75
-msgid "Option value"
-msgstr "选项值"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:31
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:56
+#, fuzzy
+msgid "Error:"
+msgstr "错误: "
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc.js:58
-msgid "Parakeets"
-msgstr "Parakeets"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2300
+msgid "Failed to access symlink target: %s"
+msgstr "访问符号链接目标失败: %s"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/form.js:52
-msgid "Password Option"
-msgstr "密码选项"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1276
+msgid "Failed to access the specified path: %s"
+msgstr "访问指定的路径失败: %s"
 
-#: applications/luci-app-example/root/usr/share/luci/menu.d/luci-app-example.json:32
-msgid "RPC Array Example"
-msgstr "RPC 数组示例"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2261
+msgid "Failed to apply permissions to file \"%s\": %s"
+msgstr "应用文件权限失败: \"%s\": %s"
 
-#: applications/luci-app-example/root/usr/share/luci/menu.d/luci-app-example.json:41
-msgid "RPC JSONMap Table Example"
-msgstr "RPC JSONMap 表格示例"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1470
+msgid "Failed to create directory \"%s\": %s"
+msgstr "创建文件夹 \"%s\" 失败: %s"
 
-#: applications/luci-app-example/root/usr/share/luci/menu.d/luci-app-example.json:50
-msgid "RPC JSONMap Typed Example"
-msgstr "RPC JSONMap Typed 示例"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1527
+msgid "Failed to create file \"%s\": %s"
+msgstr "创建文件 \"%s\" 失败: %s"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc-jsonmap-tablesection.js:36
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc-jsonmap-typedsection.js:36
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc.js:35
-msgid "RPC call failure:"
-msgstr "RPC 调用失败："
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2054
+msgid "Failed to delete %s \"%s\": %s"
+msgstr "删除 %s \"%s\" 失败: %s"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc.js:128
-msgid "Sample JS via RPC"
-msgstr "JS via RPC 的样本"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1613
+msgid "Failed to delete %s: %s"
+msgstr "删除 %s 失败: %s"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc-jsonmap-tablesection.js:61
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc-jsonmap-typedsection.js:61
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc.js:115
-msgid "See browser console for raw data"
-msgstr "原始数据见浏览器控制台"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1624
+msgid "Failed to delete selected files and directories: %s"
+msgstr "删除选中的文件和目录失败: %s"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/form.js:42
-msgid "Select Option"
-msgstr "选择选项"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1636
+msgid "Failed to display the file list."
+msgstr "显示文件列表失败"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc.js:59
-msgid "Should be \"Not found\""
-msgstr "应为“未找到”"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2018
+msgid "Failed to download file \"%s\": %s"
+msgstr "下载文件 \"%s\" 失败: %s"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/rpc.js:60
-msgid "Yes"
-msgstr "是"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2167
+msgid "Failed to duplicate %s \"%s\": %s"
+msgstr "复制 %s \"%s\" 失败: %s"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/form.js:28
-msgid "first section"
-msgstr "第一部分"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2170
+msgid "Failed to get file list: %s"
+msgstr "获取文件列表失败: %s"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/form.js:34
-msgid "second section"
-msgstr "第二部分"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1813
+msgid "Failed to load file list: %s"
+msgstr "加载文件列表失败: %s"
 
-#: applications/luci-app-example/htdocs/luci-static/resources/view/example/form.js:50
-msgid "third section"
-msgstr "第三部分"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1977
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1979
+msgid "Failed to open file: %s"
+msgstr "打开文件失败: %s"
 
-#~ msgid "Grant UCI access to LuCI app example"
-#~ msgstr "授权 LuCI 应用样例访问 UCI"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1225
+msgid "Failed to render Help content: Container not found."
+msgstr "渲染帮助内容失败: 容器未找到"
 
-#~ msgid "Grant UCI access to LuCI app ecample"
-#~ msgstr "授予 LuCI app example UCI 访问权限"
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2467
+msgid "Failed to save changes to %s \"%s\": %s"
+msgstr "保存更改到 %s \"%s\" 失败: %s"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2277
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2279
+msgid "Failed to save file \"%s\": %s"
+msgstr "保存文件 \"%s\" 失败: %s"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2584
+msgid "Failed to save settings: %s"
+msgstr "保存设置失败: %s"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1190
+msgid "Failed to update file list: %s"
+msgstr "更新文件列表失败: %s"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1734
+msgid "File"
+msgstr "文件"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1518
+msgid "File \"%s\" created successfully."
+msgstr "文件 \"%s\" 创建成功"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1398
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1400
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2254
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2256
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2265
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2267
+msgid "File \"%s\" uploaded successfully."
+msgstr "文件 \"%s\" 上传成功"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:731
+#: applications/luci-app-hc-service/root/usr/share/luci/menu.d/luci-app-hc-service.json:38
+msgid "File Manager"
+msgstr "文件管理"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:697
+#, fuzzy
+msgid "File Manager:"
+msgstr "文件管理:"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1485
+msgid "File Name"
+msgstr "文件名称"
+
+#: applications/luci-app-hc-service/root/usr/share/luci/menu.d/luci-app-hc-service.json:14
+msgid "Flash Device"
+msgstr "flash 设备"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:26
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:51
+#, fuzzy
+msgid "Flash completed:"
+msgstr "flash 完成: "
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:83
+msgid "Flash new firmware for RT1061"
+msgstr "flash 新的 RT1061 固件"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:74
+msgid "Flash new firmware for STM32"
+msgstr "flash 新的 STM32 固件"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:88
+msgid "Flash nxp"
+msgstr "flash nxp"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:61
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:90
+msgid "Flash nxp..."
+msgstr "flash nxp..."
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:67
+#, fuzzy
+msgid "Flash operations"
+msgstr "flash 操作"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:77
+msgid "Flash stm"
+msgstr "flash stm"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:79
+msgid "Flash stm..."
+msgstr "flash stm..."
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:36
+msgid "Flash stm32..."
+msgstr "flash stm32..."
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:713
+msgid "Go"
+msgstr "跳转"
+
+#: applications/luci-app-hc-service/root/usr/share/rpcd/acl.d/luci-app-hc-service.json:3
+msgid "Grant access to flash operations hc-service"
+msgstr "授予 flash 操作 hc-service 的访问权限"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:759
+msgid "Help"
+msgstr "帮助"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:992
+msgid "Hex Editor Height:"
+msgstr "十六进制编辑器高度:"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:983
+msgid "Hex Editor Width:"
+msgstr "十六进制编辑器宽度:"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:939
+msgid "Interface Settings"
+msgstr "界面设置"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:830
+msgid "Last Modified"
+msgstr "最后修改"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1928
+msgid "Loading file..."
+msgstr "加载文件..."
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:791
+msgid "Name"
+msgstr "名称"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1467
+msgid "No directory selected."
+msgstr "未选择文件夹"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:877
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1345
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1524
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1804
+msgid "No file selected."
+msgstr "未选择文件"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2464
+msgid "No item selected."
+msgstr "未选择项目"
+
+#: applications/luci-app-hc-service/root/usr/share/luci/menu.d/luci-app-hc-service.json:30
+msgid "Nxp Terminal"
+msgstr "Nxp Terminal"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager/HexEditor.js:1226
+msgid "Offset (h)"
+msgstr "偏移 (h)"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1052
+msgid "Padding Max:"
+msgstr "填充最大:"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1043
+msgid "Padding Min:"
+msgstr "填充最小:"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1034
+msgid "Padding:"
+msgstr "填充:"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1075
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1437
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2396
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2713
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2755
+msgid "Save"
+msgstr "保存"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2224
+msgid "Saving file: \"%s\"..."
+msgstr "保存文件: \"%s\"..."
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager/HexEditor.js:428
+msgid "Search ASCII"
+msgstr "搜索 ASCII"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager/HexEditor.js:431
+msgid "Search HEX (e.g., 4F6B)"
+msgstr "搜索 HEX (例如, 4F6B)"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager/HexEditor.js:434
+msgid "Search RegExp (e.g., \\d{3})"
+msgstr "搜索正则表达式 (例如, \\d{3})"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:916
+msgid "Select a file from the list to edit it here."
+msgstr "选择文件列表中的文件进行编辑"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1617
+msgid "Selected files and directories deleted successfully."
+msgstr "选中的文件和目录删除成功"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:749
+msgid "Settings"
+msgstr "设置"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2554
+msgid "Settings uploaded successfully."
+msgstr "设置上传成功"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:817
+msgid "Size"
+msgstr "大小"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:834
+msgid "Sort by Last Modified"
+msgstr "按最后修改排序"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:795
+msgid "Sort by Name"
+msgstr "按名称排序"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:821
+msgid "Sort by Size"
+msgstr "按大小排序"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:808
+msgid "Sort by Type"
+msgstr "按类型排序"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2045
+msgid "Successfully deleted %s: \"%s\"."
+msgstr "成功删除 %s: \"%s\"."
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2162
+msgid "Successfully duplicated %s \"%s\" as \"%s\"."
+msgstr "成功复制 %s \"%s\" 为 \"%s\"."
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1779
+msgid "Symlink"
+msgstr "符号链接"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2304
+#, fuzzy
+msgid "Symlink:"
+msgstr "符号链接: "
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:974
+msgid "Text Editor Height:"
+msgstr "文本编辑器高度:"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:965
+msgid "Text Editor Width:"
+msgstr "文本编辑器宽度:"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1273
+msgid "The specified path does not appear to be a directory."
+msgstr "指定的路径似乎不是一个目录"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2297
+msgid "The symlink points to an unsupported type."
+msgstr "符号链接指向不支持的类型"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2729
+msgid "Toggle Line Numbers"
+msgstr "切换行号"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2763
+msgid "Toggle to ASCII Mode"
+msgstr "切换到 ASCII 模式"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2721
+msgid "Toggle to Hex Mode"
+msgstr "切换到十六进制模式"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:804
+msgid "Type"
+msgstr "类型"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1786
+msgid "Unknown"
+msgstr "未知"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:890
+msgid "Upload File"
+msgstr "上传文件"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:84
+msgid "Upload a nxp-flash.bin image here to flash RT1061 firmware."
+msgstr "上传一个 nxp-flash.bin 镜像，以 flash RT1061 固件"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:74
+msgid "Upload a stm32-flash.bin image here to flash STM32 firmware."
+msgstr "上传一个 stm32-flash.bin 镜像，以 flash STM32 固件"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1408
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1410
+msgid "Upload failed for file \"%s\": %s"
+msgstr "文件 \"%s\" 上传失败: %s"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:1372
+msgid "Uploading: \"%s\"..."
+msgstr "上传: \"%s\"..."
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:956
+msgid "Window Height:"
+msgstr "窗口高度:"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:947
+msgid "Window Width:"
+msgstr "窗口宽度:"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2031
+msgid "directory"
+msgstr "目录"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2033
+msgid "file"
+msgstr "文件"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:42
+msgid "flash nxp..."
+msgstr "flash nxp..."
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:17
+msgid "flash stm..."
+msgstr "flash stm..."
+
+#: applications/luci-app-hc-service/root/usr/share/luci/menu.d/luci-app-hc-service.json:3
+msgid "hc-service"
+msgstr "慧仓服务"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2037
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2040
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2162
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2167
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2406
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2458
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2467
+msgid "item"
+msgstr "项目"
+
+#: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager.js:2035
+msgid "symbolic link"
+msgstr "符号链接"
+
+#: applications/luci-app-hc-service/root/usr/share/luci/menu.d/luci-app-hc-service.json:22
+msgid "wormhole Terminal"
+msgstr "虫洞Terminal"
