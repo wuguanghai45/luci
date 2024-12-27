@@ -21,7 +21,8 @@
 				"file": [ "*" ]
 			},
 			"file": {
-				"/mnt/sd": [  "list", "read", "write", "exec" ]
+				"/mnt/sd": [  "list", "read", "write", "exec" ],
+				"/etc/config/filemanager": [  "list", "read", "write", "exec" ]
 			}
 		}
 	}
