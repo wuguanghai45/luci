@@ -1,5 +1,5 @@
 {
-	"admin/system/filemanager": {
+	"admin/hc-service/filemanager": {
 		"title": "File Manager",
 		"order": 80,
 		"action": {
