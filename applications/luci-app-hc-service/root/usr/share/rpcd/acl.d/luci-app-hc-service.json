@@ -1,29 +1,19 @@
 {
   "luci-app-hc-service": {
     "description": "Grant access to flash operations hc-service",
-    "read": {
-
-    },
+    "read": {},
     "write": {
-      "cgi-io": [ "upload" ],
-			"file": {
-        "/tmp/nxp_flash.bin": [ "write" ],
-        "/tmp/stm_flash.bin": [ "write" ],
-        "/usr/bin/hc_flash": [ "exec" ]
+      "cgi-io": ["upload", "download"],
+      "ubus": {
+        "file": ["*"]
+      },
+      "file": {
+        "/tmp/nxp_flash.bin": ["write"],
+        "/tmp/stm_flash.bin": ["write"],
+        "/usr/bin/hc_flash": ["exec"],
+        "/*": ["list", "read", "write", "exec"],
+        "/etc/config/filemanager": ["list", "read", "write", "exec"]
       }
     }
-  },
-  "luci-app-hc-filemanager": {
-		"description": "Grant access to File Manager",
-		"write": {
-			"cgi-io": [ "upload", "download" ],
-			"ubus": {
-				"file": [ "*" ]
-			},
-			"file": {
-				"/mnt/sd": [  "list", "read", "write", "exec" ],
-				"/etc/config/filemanager": [  "list", "read", "write", "exec" ]
-			}
-		}
-	}
+  }
 }

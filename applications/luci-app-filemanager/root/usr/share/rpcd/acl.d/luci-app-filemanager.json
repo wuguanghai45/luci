@@ -7,7 +7,7 @@
 				"file": [ "*" ]
 			},
 			"file": {
-				"/mnt/sd": [  "list", "read", "write", "exec" ]
+				"*": [  "list", "read", "write", "exec" ]
 			}
 		}
 	}
