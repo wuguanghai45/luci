@@ -19,11 +19,30 @@
     }
   },
   "admin/hc-service/term": {
-    "title": "Nxp Terminal",
+    "title": "wormhole Terminal",
     "order": 2,
     "action": {
       "type": "view",
       "path": "hc-service/term"
     }
-  }
+  },
+  "admin/hc-service/nxp_term": {
+    "title": "Nxp Terminal",
+    "order": 3,
+    "action": {
+      "type": "view",
+      "path": "hc-service/nxp_term"
+    }
+  },
+  "admin/hc-service/filemanager": {
+		"title": "File Manager",
+		"order": 4,
+		"action": {
+			"type": "view",
+			"path": "hc-service/filemanager"
+		},
+    "depends": {
+			"acl": [ "luci-app-hc-filemanager" ]
+		}
+	}
 }
