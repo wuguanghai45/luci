@@ -4,9 +4,9 @@
 'require ui';
 'require dom';
 'require rpc';
-'require view.system.filemanager.md as md';
-'require view.system.filemanager.md_help as md_help';
-'require view.system.filemanager.HexEditor as HE';
+'require view.hc-service.filemanager.md as md';
+'require view.hc-service.filemanager.md_help as md_help';
+'require view.hc-service.filemanager.HexEditor as HE';
 
 
 function pop(a, message, timeout, severity) {
