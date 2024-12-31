@@ -234,7 +234,7 @@ msgstr "文件名称"
 
 #: applications/luci-app-hc-service/root/usr/share/luci/menu.d/luci-app-hc-service.json:14
 msgid "Flash Device"
-msgstr "烧录 设备"
+msgstr "烧录设备"
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:26
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/flash.js:51
@@ -329,7 +329,7 @@ msgstr "未选择项目"
 
 #: applications/luci-app-hc-service/root/usr/share/luci/menu.d/luci-app-hc-service.json:30
 msgid "Nxp Terminal"
-msgstr "Nxp 终端"
+msgstr "Nxp终端"
 
 #: applications/luci-app-hc-service/htdocs/luci-static/resources/view/hc-service/filemanager/HexEditor.js:1226
 msgid "Offset (h)"
